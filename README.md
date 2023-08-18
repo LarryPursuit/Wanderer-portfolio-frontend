@@ -1,6 +1,6 @@
 # LarryThe25thDev Portfolio
 
-This project is my personal portfolio this app was created with Sanity, SCSS and ReactJS with [The25thWanderer](https://github.com/facebook/create-react-app).
+This project is my personal portfolio this app was created with Sanity, SCSS and ReactJS with [The25thWanderer](https://larrythe25thdev.netlify.app/).
 
 ## Portfolio Preview
 
