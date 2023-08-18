@@ -1,18 +1,16 @@
-# Getting Started with Create React App
+# LarryThe25thDev Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is my personal portfolio this app was created with Sanity, SCSS and ReactJS with [The25thWanderer](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Portfolio Preview
 
-In the project directory, you can run:
+![Portfolio](/frontend_react/src/assets/preview.png)
 
-### `npm start`
+### The languages used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ReactJS](https://reactjs.org/)
+- [Sanity](https://www.sanity.io/)
+- [SCSS](https://sass-lang.com/)
 
 ### `npm test`
 
