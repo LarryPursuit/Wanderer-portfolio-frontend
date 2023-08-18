@@ -1,6 +1,6 @@
 import React from "react";
 import { BsTwitter, BsInstagram } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const SocialMedia = () => (
   <div className="app__social">
@@ -15,8 +15,8 @@ const SocialMedia = () => (
       </a>
     </div>
     <div>
-      <a href="https://www.facebook.com">
-        <FaFacebookF />
+      <a href="https://www.linkedin.com/in/lma1992/">
+        <FaLinkedinIn />
       </a>
     </div>
   </div>
