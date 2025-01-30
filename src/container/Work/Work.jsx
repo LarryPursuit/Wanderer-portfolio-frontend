@@ -31,7 +31,9 @@ const Work = () => {
       if (item === "All") {
         setFilterWork(works);
       } else {
-        setFilterWork(works.filter((work) => work.tags.includes(item)));
+        setFilterWork(
+          works.filter((work) => work.tags && work.tags.includes(item))
+        );
       }
     }, 500);
   };
@@ -43,7 +45,7 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["UI/UX", "Web App", "Photography", "React JS", "All"].map(
+        {["UI/UX", "Web App", "Photography", "React JS", "NextJS", "All"].map(
           (item, index) => (
             <div
               key={index}
@@ -107,7 +109,9 @@ const Work = () => {
               </p>
 
               <div className="app__work-tag app__flex">
-                <p className="p-text">{work.tags[0]}</p>
+                <p className="p-text">
+                  {work.tags && work.tags.length > 0 ? work.tags[0] : "No Tag"}
+                </p>
               </div>
             </div>
           </div>
