@@ -22,3 +22,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vercel
+
+# Add these if not already present
+.env.local
+.env.development
+.env.production
+node_modules/
+build/
+.vercel
